@@ -7,6 +7,7 @@
 ### 选课关系表(Selection)（课程-学生关系表）
 
 ```json
+表名：selection
 {
   course_selection_id	:	SMALLINT 主键，自增	// 选课关系的流水号
   student_id			:	外键				  // 选课的学生
@@ -17,6 +18,7 @@
 ### 作业本表(Paper) （作业-学生关系表）
 
 ```json
+表名：papers
 {
   do_homework_id	:	SMALLINT 主键，自增	// 作业本的流水号
   homework_id		:	外键				  // 哪个作业

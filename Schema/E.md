@@ -7,6 +7,7 @@
 ### 学生信息表Student
 
 ```json
+表名：students
 {
   student_id	:	SMALLINT 主键 自增		// 学生的学号
   student_name	:	CHAR(10) 索引	   		 // 学生的注册名字，一般是自己的姓名
@@ -17,6 +18,7 @@
 ### 课程信息表Course
 
 ```json
+表名：courses
 {
   course_id		:	SMALLINT 主键 自增		// 课程号
   course_name	:	CHAR(10) 索引			 // 课程的名字
@@ -27,6 +29,7 @@
 ### 老师信息表Teacher
 
 ```json
+表名：teachers
 {
   teacher_id	:	SMALLINT 主键 自增       // 教师工号
   teacher_name	:	CHAR(10) 索引	   		  // 老师的注册名字，一般是自己的姓名
@@ -37,6 +40,7 @@
 ### 作业信息表Homework
 
 ```json
+表名：homework
 {
   homework_id			:	SMALLINT 主键 自增        // 作业流水号
   homework_title		:	VARCHAR				     // 作业的标题
